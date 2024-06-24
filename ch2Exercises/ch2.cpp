@@ -4,15 +4,30 @@ using namespace std;
 
 /*
 * Textbook exercises chapter 2
+* davidkmg1996
 */
 
 int main() {
 
+	int twoSeventeen();
+	int twoEighteen();
+
 	//2.17
-	
+	twoSeventeen();
+	//2.18
+	twoEighteen();
+
+
+
+	return 0;
+}
+
+int twoSeventeen() {
+
+
 	//a
 	cout << "1 2 3 4\n" << endl;
-	
+
 	//b
 	cout << "1 " << "2 " << "3 " << "4\n" << endl;
 
@@ -20,15 +35,7 @@ int main() {
 	cout << "1 ";
 	cout << "2 ";
 	cout << "3 ";
-	cout << "4\n";
-
-	int num1 = 0;
-	int num2 = 0;
-	int twoEighteen();
-	
-	twoEighteen();
-
-
+	cout << "4\n\n";
 
 	return 0;
 }
@@ -44,6 +51,7 @@ int twoEighteen() {
 	cin >> num1;
 	cout << "Please enter a second number\n";
 	cin >> num2;
+	cout << "\n";
 
 
 	if (num1 > num2) {
