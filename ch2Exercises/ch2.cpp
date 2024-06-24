@@ -8,17 +8,49 @@ using namespace std;
 */
 
 int main() {
+	
 
+	int twoNine();
 	int twoSeventeen();
 	int twoEighteen();
 	int twoTwenty();
 
+	//2.09
+	twoNine();
 	//2.17
 	twoSeventeen();
 	//2.18
 	twoEighteen();
 	//2.20
 	twoTwenty();
+
+	return 0;
+}
+
+int twoNine() {
+
+	//a.)
+	cout << "Enter two numbers \n";
+
+	//b.)
+	int a = 0;
+	int b = 0;
+	int c = 0;
+
+	
+	//c.)  program performs a payroll calculation
+
+	//d.)
+	cin >> b;
+	cout << "\n";
+	cin >> c;
+	cout << "\n";
+
+	a = b * c;
+
+	cout << a << "\n" << endl;
+
+	
 
 	return 0;
 }
@@ -91,3 +123,4 @@ int twoTwenty() {
 
 	return 0;
 }
+
