@@ -22,9 +22,21 @@ int main() {
 	cout << "3 ";
 	cout << "4\n";
 
+	int num1 = 0;
+	int num2 = 0;
+	int twoEighteen();
+	
+	twoEighteen();
 
-	2.18
 
+
+	return 0;
+}
+
+int twoEighteen() {
+
+
+	//2.18
 	int num1 = 0;
 	int num2 = 0;
 
@@ -40,18 +52,13 @@ int main() {
 	}
 
 	if (num2 > num1) {
-			cout << num2 << " is greater than " << num1 << endl;
-		}
+		cout << num2 << " is greater than " << num1 << endl;
+	}
 
 	if (num1 == num2) {
 
-			cout << num1 << " equals " << num2 << endl;
-		}
-
-
-
-
-
+		cout << num1 << " equals " << num2 << endl;
+	}
 
 	return 0;
 }
