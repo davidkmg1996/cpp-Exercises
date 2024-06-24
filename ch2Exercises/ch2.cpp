@@ -11,14 +11,14 @@ int main() {
 
 	int twoSeventeen();
 	int twoEighteen();
-	int circle();
+	int twoTwenty();
 
 	//2.17
 	twoSeventeen();
 	//2.18
 	twoEighteen();
 	//2.20
-	circle();
+	twoTwenty();
 
 	return 0;
 }
@@ -72,7 +72,7 @@ int twoEighteen() {
 	return 0;
 }
 
-int circle() {
+int twoTwenty() {
 	
 	int pi = 3.14169;
 	int radius = 0;
