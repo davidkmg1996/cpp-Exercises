@@ -34,6 +34,19 @@ int main() {
 
     cout << x << endl;
 
+    x = 0;
+
+    //4.3
+   
+    x = 5;
+    int y = 1;
+    int z = 2;
+
+    z = y + x++;
+    cout << z << endl;
+
+
+
 
  }
 
