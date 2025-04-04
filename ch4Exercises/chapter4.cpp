@@ -82,6 +82,20 @@ int main() {
 
    cout << remainderWNC << endl;
 
+   //4.4
+
+   //a
+   unsigned int sum = 0;
+
+   //b
+   unsigned int x44= 1;
+
+   //c
+   sum = x44 + sum;
+
+   //d
+   cout << "The sum is: " << sum << " " << endl;
+
 
 
  }
