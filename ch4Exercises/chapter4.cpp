@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <string>
+#include "fourPoint5.h"
 
 using namespace std;
 
@@ -96,7 +97,10 @@ int main() {
    //d
    cout << "The sum is: " << sum << " " << endl;
 
+  fourFive n;
+  n.fourPoint();
 
+  
 
  }
 
