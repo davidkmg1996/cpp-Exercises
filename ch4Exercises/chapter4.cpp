@@ -12,7 +12,7 @@ using namespace std;
 int main() {
 
 
- //4.3
+ //4.2
     int x = 0;
     x = x + 1;
     cout << x << endl;
