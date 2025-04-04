@@ -38,6 +38,7 @@ int main() {
 
     //4.3
    
+    //a
     x = 5;
     int y = 1;
     int z = 2;
@@ -45,6 +46,41 @@ int main() {
     z = y + x++;
     cout << z << endl;
 
+    //b
+
+    int count = 10;
+
+    if (count > 10) {
+      cout <<"Count is greater than 10" << endl;
+    } else {
+      cout <<"Count is less than or equal to 10" << endl;
+    }
+
+   //c
+
+   int total = 15;
+   --x;
+
+   total = total - x;
+
+   cout << total << endl;
+   
+   //d
+
+   int q = 10;
+   int divisor = 6;
+   int remainder;
+
+   remainder = q / divisor;
+   cout << remainder << endl;
+
+   float qWNC = 10;
+   float divisorWNC = 6;
+   float remainderWNC;
+
+   remainderWNC = qWNC / divisorWNC;
+
+   cout << remainderWNC << endl;
 
 
 
