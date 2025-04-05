@@ -8,6 +8,7 @@
 #include <string>
 #include "fourPoint5.h"
 #include "fourPoint6.h"
+#include "fourPoint7.h"
 
 using namespace std;
 
@@ -104,6 +105,10 @@ int main() {
   fourSix r;
 
   r.calculate();
+
+  fourSeven o;
+
+  o.fourP7();
 
   
 
