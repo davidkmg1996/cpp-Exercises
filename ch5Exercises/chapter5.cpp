@@ -5,6 +5,7 @@
 #include "fivePoint13.h"
 #include "fivePoint14.h"
 #include "fivePoint15.h"
+#include "fivePoint16.h"
 
 using namespace std;
 
@@ -40,5 +41,8 @@ int main() {
     fiveFifteen f15;
 
     f15.triangle();
+    
+    fiveSixteen f16;
+    f16.display();
 
 }
