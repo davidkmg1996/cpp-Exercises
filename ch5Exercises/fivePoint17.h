@@ -65,7 +65,6 @@ class fiveSeventeen {
                     default:
                     cout << "\nTotal Price: $" << price << "\nTotal Quanity Sold: " << totalQuantity << endl;
                     exit(0);
-                        exit(0);
                 };
                 
                 
