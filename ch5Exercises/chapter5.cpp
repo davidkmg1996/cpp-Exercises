@@ -2,7 +2,8 @@
 #include <string>
 #include "fivePoint11.h"
 #include "fivePoint12.h"
-#include "finvePoint13.h"
+#include "fivePoint13.h"
+#include "fivePoint14.h"
 
 using namespace std;
 
@@ -29,5 +30,10 @@ int main() {
     for (int i = 9; i <= 19; i++) {
         cout << i + 1 << "!      |      " << f13.calculateFactorial(i) << endl;
     }
+
+    fiveFourteen f14;
+
+    //5.14
+    f14.calc();
 
 }
