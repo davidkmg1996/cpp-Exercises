@@ -33,10 +33,6 @@ class fiveFourteen {
                 cout << "interest Rate " << i << endl;
                 calculate(i);
             }
-
-            for (double i = 0.05; i <= 1.0; i++) {
-                cout << i << endl;
-            }
         }
 
 
