@@ -7,13 +7,17 @@
 #include "fivePoint15.h"
 #include "fivePoint16.h"
 #include "fivePoint17.h"
-#include "fivePoint18.h"
+#include "fivePoint19.h"
 
 using namespace std;
 
 
 
 int main() {
+
+    //5.11
+    fiveEleven f11;
+    f11.findSmallest();
 
     //5.12
     fiveTwelve f12;
@@ -51,5 +55,9 @@ int main() {
     //5.17
     fiveSeventeen f17;
     f17.displayPrice();
+
+    //5.19
+    fiveNineteen f19;
+    f19.calculatePi();
 
 }
