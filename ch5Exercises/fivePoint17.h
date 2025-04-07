@@ -76,10 +76,10 @@ class fiveSeventeen {
 
                     case -1:
                         cout << "\nTotal Price: $" << price << "\nTotal Quanity Sold: " << totalQuantity << endl;
-                        exit(0);
+                        return;
                     default:
                         cout << "\nTotal Price: $" << price << "\nTotal Quanity Sold: " << totalQuantity << endl;
-                        exit(0);
+                        return;
                 };
                 
                 
