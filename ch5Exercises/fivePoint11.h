@@ -10,7 +10,6 @@ class fiveEleven {
     //5.11
 
     public:
-        unsigned int j;
         unsigned int i;
         unsigned int p;
 
