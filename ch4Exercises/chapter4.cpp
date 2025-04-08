@@ -115,9 +115,6 @@ int main() {
 
   k.fourP8();
 
-
-  
-
  }
 
 
