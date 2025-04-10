@@ -10,6 +10,13 @@ class fiveTwentyOne {
         int rows = 10;
 
         //5.21
+
+        /*
+        Make
+            clever
+        use of nested for lops
+        */
+
         void triangle() {
 
         //a
@@ -50,18 +57,6 @@ class fiveTwentyOne {
         }
         
         cout <<"\n";
-
-        //b
-        // for (int j{0}; j < rows; ++j) {
-            
-           
-        //     cout <<"\n";
-        // }
-
-    
-
-        //d
-     
        
     }
 
