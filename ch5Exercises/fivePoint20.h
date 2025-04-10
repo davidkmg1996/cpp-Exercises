@@ -12,7 +12,6 @@ class fiveTwenty {
     public:
         unsigned int side1;
         unsigned int side2;
-        int counter;
 
         void triples(){
 
