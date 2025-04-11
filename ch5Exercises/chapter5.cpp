@@ -14,6 +14,7 @@
 #include "fivePoint23.h"
 #include "fivePoint24.h"
 #include "fivePoint28.h"
+#include "fivePoint29.h"
 
 using namespace std;
 
@@ -89,5 +90,9 @@ int main() {
     //5.28
     fiveTwentyEight f28;
     f28.twelveDays();
+
+    //5.29
+    fiveTwentyNine f29;
+    f29.calc();
 
  }
