@@ -12,9 +12,11 @@
 #include "fivePoint21.h"
 #include "fivePoint22.h"
 #include "fivePoint23.h"
+#include "fivePoint24.h"
 #include "fivePoint28.h"
 
 using namespace std;
+
 
 
 int main() {
@@ -80,8 +82,12 @@ int main() {
     fiveTwentyThree f23;
     f23.diamond();
 
+    //5.23
+    fiveTwentyFour f24;
+    f24.diamondEnter();
+
     //5.28
     fiveTwentyEight f28;
     f28.twelveDays();
 
-}
+ }

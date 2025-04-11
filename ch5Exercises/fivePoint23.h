@@ -5,10 +5,12 @@
 using namespace std;
 
 
+
 class fiveTwentyThree {
 
 public:
 
+    //5.23
     void diamond() {
     int counter = 0;
     int nine = 9;

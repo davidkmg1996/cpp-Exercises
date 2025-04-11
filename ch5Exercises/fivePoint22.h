@@ -11,6 +11,7 @@ class fiveTwentyTwo {
         int x, y, a, b, g, j, i;
         bool bleh;
 
+        //5.22
         void DeMorgan() {
 
             //a

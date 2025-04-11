@@ -15,7 +15,7 @@ public:
     //5.19
 
     void calculatePi(){
-        
+
         for (int i = 3; i <= 400000; i+=2) {
             counter++;
 
