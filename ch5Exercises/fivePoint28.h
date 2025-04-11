@@ -65,7 +65,7 @@ class fiveTwentyEight {
                     y = 2;
                     break;
                 case 12:
-                    cout << "On the twelth day of Christmas my true love sent to me";
+                    cout << "On the twelfth day of Christmas my true love sent to me";
                     y = 1;
                     break;
 
