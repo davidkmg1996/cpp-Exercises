@@ -13,6 +13,17 @@ public:
         int die;
         int rows;
 
+        /*
+        I thought about adding a few conditional statements
+        to limit the number of rows a user an enter, but
+        I figured that, if you want to break it, you can
+        just break it.
+
+        Breaking things is the only thing you'll ever be
+        half decent at
+        
+        */
+
         cout << "Enter a number of rows: ";
         cin >> rows;
     
