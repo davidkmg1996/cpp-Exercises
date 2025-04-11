@@ -11,10 +11,10 @@
 #include "fivePoint20.h"
 #include "fivePoint21.h"
 #include "fivePoint22.h"
+#include "fivePoint23.h"
 #include "fivePoint28.h"
 
 using namespace std;
-
 
 
 int main() {
@@ -75,6 +75,10 @@ int main() {
     //5.22
     fiveTwentyTwo f22;
     f22.DeMorgan();
+
+    //5.23
+    fiveTwentyThree f23;
+    f23.diamond();
 
     //5.28
     fiveTwentyEight f28;
