@@ -11,6 +11,7 @@
 #include "fivePoint20.h"
 #include "fivePoint21.h"
 #include "fivePoint22.h"
+#include "fivePoint28.h"
 
 using namespace std;
 
@@ -67,10 +68,16 @@ int main() {
     fiveTwenty f20;
     f20.triples();
 
+    //5.21
     fiveTwentyOne f21;
     f21.triangle();
 
+    //5.22
     fiveTwentyTwo f22;
     f22.DeMorgan();
+
+    //5.28
+    fiveTwentyEight f28;
+    f28.twelveDays();
 
 }
