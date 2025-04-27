@@ -8,7 +8,7 @@ class fiveThirty {
 
     public:
         
-        explicit fiveThirty(int64_t dollars, long long cents) : amount{(dollars * 100) + (cents)} {
+        explicit fiveThirty(int64_t dollars, int64_t cents) : amount{(dollars * 100) + (cents)} {
 
         }
 
@@ -40,7 +40,5 @@ class fiveThirty {
 
     private:
         int64_t amount{0};
-        int64_t dollars{0};
-        int64_t cennts{0};
 
 };
