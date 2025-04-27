@@ -23,8 +23,7 @@ class fiveThirtyOne {
 
         void divide(int blockquote) {
 
-            float x = blockquote;
-            amount = (amount / (x));
+            amount = (amount / blockquote);
 
            
         }
