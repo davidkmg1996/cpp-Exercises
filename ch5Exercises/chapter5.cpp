@@ -16,6 +16,7 @@
 #include "fivePoint28.h"
 #include "fivePoint29.h"
 #include "fivePoint30.h"
+#include "fivePoint31.h"
 
 using namespace std;
 
@@ -100,11 +101,19 @@ int main() {
     fiveThirty f30(1000, 239);
     fiveThirty fAdd(0, 20);
     fiveThirty fSub(500, 0);
-    f30.toString();
+    cout << f30.toString();
     f30.add(fAdd);
-    f30.toString();
+    cout << f30.toString() << endl;
     f30.subtract(fSub);
     f30.toString();
+
+    //5.31
+    fiveThirtyOne f31(1250, 60);
+    cout << f31.toString() << endl;
+    f31.divide(20);
+    cout << f31.toString() << endl;
+
+
 
 
  }
