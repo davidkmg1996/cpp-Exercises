@@ -31,9 +31,7 @@ class fiveThirty {
         }
 
         string toString() const {
-        
-
-            cout << amount << endl;
+            
             return to_string(amount);
         }
 
